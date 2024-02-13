@@ -1,7 +1,7 @@
 export default function menu() {
   const menuBtn = document.querySelector(".menu-icon");
   const closeBtn = document.querySelector(".close");
-  const menuDiv = document.querySelector(".menu");
+  const menuDiv = document.querySelector(".mobile-menu");
 
   function openMenu() {
     menuDiv.classList.add("active");
